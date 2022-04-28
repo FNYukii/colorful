@@ -17,7 +17,7 @@ function Footer() {
 						<h3>Page links</h3>
 						<ul className="global-nav">
 							<li><a href="/">Top</a></li>
-							<li><a href="/gallery">Products</a></li>
+							<li><a href="/products">Products</a></li>
 							<li><a href="/contact">Contact</a></li>
 						</ul>
 					</div>
