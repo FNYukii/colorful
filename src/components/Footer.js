@@ -26,13 +26,13 @@ function Footer() {
 						<h3>Connect with us</h3>
 						<ul>
 							<li>
-                <a href=""><FaTwitter/></a>
+                <a href="/"><FaTwitter/></a>
               </li>
 							<li>
-                <a href=""><FaFacebookSquare/></a>
+                <a href="/"><FaFacebookSquare/></a>
               </li>
 							<li>
-                <a href=""><FaInstagram/></a>
+                <a href="/"><FaInstagram/></a>
               </li>
 						</ul>
 					</div>
