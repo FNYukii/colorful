@@ -1,0 +1,55 @@
+header {
+  height: 100px;
+}
+
+header .large-container .logo {
+  line-height: 100px;
+  font-size: 50px;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  color: #333;
+}
+
+header .large-container .global-nav {
+  float: right;
+  padding-inline-start: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+header .large-container .global-nav li {
+  margin-left: 40px;
+  line-height: 100px;
+}
+
+header .large-container .global-nav li a {
+  text-decoration: none;
+  color: gray;
+}
+
+header .large-container .global-nav li a:hover {
+  color: #000;
+}
+
+/* TODO: HAMBURGER-MENU */
+
+@media (max-width:1100px) {
+  header .large-container {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width:800px) {
+  header .large-container {
+    padding: 0 20px;
+  }
+
+  header .large-container .logo {
+    font-size: 45px;
+  }
+
+  header .large-container .global-nav {
+    display: none;
+  }
+}
