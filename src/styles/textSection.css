@@ -1,0 +1,48 @@
+.section {
+  margin-top: 50px;
+}
+
+.section .large-container img {
+  width: 100%;
+}
+
+.section .small-container img {
+  width: 100%;
+}
+
+.section>div:last-child {
+  padding-bottom: 50px;
+  border-bottom: 1px solid lightgray;
+}
+
+.section:last-child>div:last-child {
+  border-bottom: none;
+}
+
+.section h1 {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 38px;
+  color: #333;
+}
+
+.section h2 {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  color: #333;
+}
+
+.section p {
+  font-size: 19px;
+  color: gray;
+  margin: 30px;
+  line-height: 30px;
+}
+
+.section ul li {
+  font-size: 19px;
+  color: gray;
+  margin: 15px;
+  line-height: 30px;
+}

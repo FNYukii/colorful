@@ -11,7 +11,7 @@ function Footer() {
 
 					<div className="column01">
 						<a href='/'>
-							<img className='logo' src={logo} height='50'/>
+							<img className='logo' src={logo} height='50' alt=''/>
 						</a>
 						<p>Officia vero odit dolore dignissimos aliquid. Lorem ipsum dolor sit. Amet consectetur adipisicing elit. Ducimus ad minima totam enim quaerat.</p>
 					</div>
