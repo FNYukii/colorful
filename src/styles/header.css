@@ -1,5 +1,5 @@
 header {
-  height: 100px;
+  height: 70px;
 }
 
 header .large-container a .logo {
@@ -16,7 +16,7 @@ header .large-container .global-nav {
 
 header .large-container .global-nav li {
   margin-left: 40px;
-  line-height: 100px;
+  line-height: 70px;
 }
 
 header .large-container .global-nav li a {
