@@ -1,4 +1,5 @@
 import '../styles/footer.css'
+import logo from '../images/logo-white.png'
 import { FaTwitter, FaFacebookSquare, FaInstagram} from 'react-icons/fa'
 
 function Footer() {
@@ -9,7 +10,9 @@ function Footer() {
 				<div className="row">
 
 					<div className="column01">
-						<a className="logo" href="/">Colorful</a>
+						<a href='/'>
+							<img className='logo' src={logo} height='50'/>
+						</a>
 						<p>Officia vero odit dolore dignissimos aliquid. Lorem ipsum dolor sit. Amet consectetur adipisicing elit. Ducimus ad minima totam enim quaerat.</p>
 					</div>
 		

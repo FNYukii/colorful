@@ -2,12 +2,8 @@ header {
   height: 100px;
 }
 
-header .large-container .logo {
-  line-height: 100px;
-  font-size: 50px;
-  font-family: 'Inter', sans-serif;
-  text-decoration: none;
-  color: #333;
+header .large-container a .logo {
+  margin-top: 16px;
 }
 
 header .large-container .global-nav {

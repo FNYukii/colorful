@@ -14,13 +14,8 @@ footer .large-container .row .column01 {
   padding-right: 30px;
 }
 
-footer .large-container .row .column01 .logo {
-  font-size: 50px;
-  font-family: 'Inter', sans-serif;
-  text-decoration: none;
-}
-
 footer .large-container .row .column01 p {
+  margin-top: 8px;
   color: gray;
 }
 
