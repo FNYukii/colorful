@@ -15,7 +15,7 @@ function TextSection(props) {
         <img src={props.photo} className="trigger-to-popup-modal" alt=''/>
       </div>
       <div className="small-container">
-        <h1>{props.title}</h1>
+        <h2>{props.title}</h2>
         <p style={{whiteSpace: 'pre-line'}}>{props.text}</p>
       </div>
     </div>
