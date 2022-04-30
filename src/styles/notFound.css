@@ -1,0 +1,11 @@
+main .not-found-section {
+  height: 600px;
+  width: 100%;
+  display: table;
+  text-align: center;
+}
+
+main .not-found-section p {
+  display: table-cell;
+  vertical-align: middle;
+}

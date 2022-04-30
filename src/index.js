@@ -2,11 +2,14 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 import './styles/index.css'
+
 import Header from './components/Header'
 import Footer from './components/Footer'
+
 import Top from './components/Top'
 import Products from './components/Products'
 import Contact from './components/Contact'
+import NotFound from './components/NotFound'
 
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
@@ -16,9 +19,10 @@ root.render(
     <Header/>
     <BrowserRouter>
       <Routes>
-       <Route exact path='/' element={<Top/>}/>
-       <Route exact path='/products' element={<Products/>}/>
-       <Route exact path='/contact' element={<Contact/>}/>
+       <Route path='/' element={<Top/>}/>
+       <Route path='/products' element={<Products/>}/>
+       <Route path='/contact' element={<Contact/>}/>
+       <Route path='*' element={<NotFound/>}/>
       </Routes>
     </BrowserRouter>
     <Footer/>
