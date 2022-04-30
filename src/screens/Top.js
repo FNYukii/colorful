@@ -1,9 +1,9 @@
 import TextSection from '../components/TextSection';
 
-import photo01 from '../images/orange-whole_cake.jpg';
-import photo02 from '../images/blue-cupcakes.jpg';
-import photo03 from '../images/colorful-cupcakes.jpg';
-import photo04 from '../images/fluits-and-veggies.jpg';
+import photo01 from '../images/header01.jpg';
+import photo02 from '../images/header02.jpg';
+import photo03 from '../images/header03.jpg';
+import photo04 from '../images/header04.jpg';
 
 function Top() {
 	return (
