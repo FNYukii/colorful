@@ -1,5 +1,4 @@
 import '../styles/contact.css'
-import '../styles/textSection.css'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
