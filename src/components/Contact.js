@@ -1,10 +1,15 @@
 import '../styles/contact.css'
 import '../styles/textSection.css'
+
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+
 import header06 from '../images/header06.jpg'
 
 function Contact() {
   return (
     <div>
+			<Header/>
 			<main>
 			
 				<div className="section form-section">
@@ -33,6 +38,7 @@ function Contact() {
 				</div>
 
 			</main>
+			<Footer/>
 		</div>
   )
 }
