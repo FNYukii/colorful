@@ -55,7 +55,7 @@ footer .large-container .row .column03 ul li {
 }
 
 footer .large-container .row .column03 ul li a:hover {
-  color: aqua;
+  opacity: 0.8;
 }
 
 footer .large-container .row .column03 ul li a {
