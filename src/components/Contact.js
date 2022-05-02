@@ -8,7 +8,7 @@ import header06 from '../images/header06.jpg'
 function Contact() {
   return (
     <div>
-			<Header/>
+			<Header pageIndex={2}/>
 			<main>
 			
 				<div className="section form-section">

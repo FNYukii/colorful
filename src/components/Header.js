@@ -4,7 +4,15 @@ import '../styles/header.css'
 
 import logo from '../images/logo-black.png'
 
-function Header() {
+function Header(props) {
+
+  function liClassName(index) {
+    if (props.pageIndex === index) {
+      return 'currentPage'
+    }
+    return ''
+  }
+
   return (
     <header>
       <div className="large-container">
@@ -14,9 +22,9 @@ function Header() {
         </a>
 
         <ul className="global-nav">
-          <li><a href="/">Top</a></li>
-          <li><a href="/products">Products</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a className={liClassName(0)} href="/">Top</a></li>
+          <li><a className={liClassName(1)} href="/products">Products</a></li>
+          <li><a className={liClassName(2)} href="/contact">Contact</a></li>
         </ul>
 
       </div>

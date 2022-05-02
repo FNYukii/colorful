@@ -28,6 +28,10 @@ header .large-container .global-nav li a:hover {
   color: #000;
 }
 
+header .large-container .global-nav li .currentPage {
+  color: #000;
+}
+
 /* TODO: HAMBURGER-MENU */
 
 @media (max-width:1100px) {

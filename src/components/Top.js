@@ -11,7 +11,7 @@ import photo04 from '../images/header04.jpg';
 function Top() {
 	return (
 		<div>
-			<Header/>
+			<Header pageIndex={0}/>
 			<main>
 				<TextSection isLarge={true} photo={photo01} title="No Sweets No life" text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n\nIpsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptate libero rerum quasi quisquam, voluptatum optio in ad, earum quos nesciunt error quis totam? Voluptatem quod nostrum numquam dicta quidem! Sit amet consectetur adipisicing.\n\nAsperiores facere quibusdam iure odit debitis nostrum consequatur, nam repudiandae modi voluptates. Provident commodi eligendi dicta, unde accusantium consectetur sapiente reiciendis ut libero magnam earum reprehenderit nulla optio assumenda. Dicta, ratione ea.\n\nEarum quos nesciunt error quis totam? Voluptatem.`}/>
 				<TextSection photo={photo02} title='Colors draw your life' text={`Lorem ipsum dolor sit amet.\n\nRem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit, quis eum asperiores necessitatibus iusto quibusdam? Culpa veniam voluptatum molestias.\n\nEm, ipsum dolor.\n\nVitae aut nam nisi? Pariatur, eaque et officiis eos consequuntur saepe fugit sequi officia natus itaque praesentium. Quaerat cumque ullam fuga itaque voluptatum tempore, ut a aliquam facere aut aliquid, iusto necessitatibus sequi atque voluptate officia, eius laboriosam maxime consequuntur voluptas at.Quia ad molestiae non hic doloribus libero aliquam voluptatem, provident voluptate rerum fuga deserunt pariatur dolor odio, reiciendis iste minima.`}/>

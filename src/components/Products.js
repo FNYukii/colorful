@@ -22,7 +22,7 @@ import product12 from '../images/product12.jpg'
 function Products() {
   return (
     <div>
-			<Header/>
+			<Header pageIndex={1}/>
 			<main>
 
 				<TextSection isLarge={true} photo={header05} title='Products' text={`Debitis ipsum blanditiis aliquid obcaecati voluptatem quis, cupiditate beatae quae ipsa.\nEautem delectus tempora.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quae vel sequi quidem suscipit blanditiis perspiciatis quas atque corporis nam? Reprehenderit.`}/>
